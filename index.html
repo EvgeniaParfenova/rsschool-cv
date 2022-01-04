@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
  <head>
     <meta charset="utf-8">
-    <title>Моя первая веб-страница</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  </head>
  <body>
-    <h1>Заголовок страницы</h1>
-    <p>Teкст</p>
+   <header><nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#contacts" class="nav-link">Сontacts</a></li>
+      <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+      <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+      <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+    </ul>
+  </nav></header>
+   
+   <main>
+     <div>
+    <div><img src="image.jpg" alt="my photo" width="200" height="350"></div>
+    <div>
+       <h1>Eвгения Парфенова</h1>
+
+
+       <h2 id = "contacts">Мои контакты</h2>
+      <ul> 
+        <li>Телефон: 89502074108 предпочтительно Viber, WhatsApp</li>
+        <li>E-mail: evgenia.lewkina@yandex.ru просматриваю</li> </ul> 
+    </div>
+  </div>
+  
+        <h2 id ="summary">O cебе</h2>
+        <p> Мне 35 лет. Я домохозяйка. Замужем. Воспитываем дочь, ей 9 лет.
+          Я с 18 лет работала на заводе. </p>
+        <p>Стаж 13 лет слесарем по контрольно-измерительным приборам и автоматике.Закончила учебу в институте по
+          технической специальности.</p>
+        <p>По состоянию здоровья не работаю на заводе.</p> 
+        <p>Есть небольшой опыт копирайтера. Писала статьи на сайте Адвего, выполняла небольшие задания.
+          Так же небольшой опыт работы с Фотошопом.</p>
+        <p>Хочу научиться верстке и учиться в RSSchool.Ищу работу или подработку удаленно в этой сфере для 
+             новичков через интернет на не полный рабочий день. Желательно свободный график. 
+            </p>
+        <h2 id ="skills">Перечень навыков</h2> 
+          <ul>
+            <li>Ocновы HTML</li>
+            <li>Основы CSS</li>
+          </ul>   
+
+        <h2 id ="code">Пример кода</h2>
+        <pre>function multiply (a, b) {
+             return a * b</pre>
+             }
+
+         <h2 id ="courses">Курсы</h2>
+         
+           <p><a href="https://ru.code-basics.com/languages/html">Курс по HTML</a></p> 
+           <p><a href="https://ru.code-basics.com/languages/css">Курс по CSS</a></p>
+         
+         <h2 id ="projects">Проект</h2>
+         <a href="https://github.com/EvgeniaParfenova/rsschool-cv"> Ccылка на проект </a>
+
+        <h2 id="education">Образование</h2>
+        <p>Верхнесалдинский профессиональный лицей имени А.А.Евстигнеева по профессии "Слесарь по контрольно-
+             измерительным приборам и автоматики"</p>
+        <p>Высшее образование "Уральский федеральный университет имени первого Президента России Б.Н.Ельцина"
+             квалификация инженер по специальности "Литейное производство черных и цветных металлов"
+             </p>
+        
+        <h2 id ="english">Английский</h2>
+        <p>В школе изучали 2-3 года, читаю более менее, пользуюсь переводчиком.</p>
+     
+   </main>
+   <footer>
+     <a href="https://github.com/EvgeniaParfenova">Ccылка на мою страницу в github</a>
+     <p>2008 год создания приложения</p>
+     <img src="https://rs.school/images/rs_school_js.svg" alt="Название изображения" width="100"/>
+     <a href="https://rs.school/js/">Ccылка на курс</a>
+
+   </footer>
+    
  </body>
 </html>
